@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Eventmaker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+                <link href="css/bootstrap.css" rel="stylesheet">
+                <link href="newcss.css" rel="stylesheet">
+
+
+    </head>
+    <body>
+       <div class="container">
+        <nav class="navbar"  style="width:490px; height:30px;">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="Hello.html">Eventmaker</a>
+        </div>
+   
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <li><a href="Hello.html">Главная</a></li>
+        <li><a href="View">Найти</a></li>
+        <li><a href="createEvent.html">Создать</a></li>
+        <li><a href="index.html">Подписка</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+        </div><!-- /.navbar-collapse -->
+       </div><!-- /.container-fluid -->
+       </nav>
+        <div class="header">
+        <h1 align="center" style="color: whitesmoke;">Создать событие</h1>
+        </div>
+           
+       <form align="center" class="navbar" type="text" action="EventSave" >
+
+       <input type="text" class="span2 form-control" placeholder="Название" name="name">
+       <input type="text" class=" span2 form-control" placeholder="Описание" name="description">      
+       <input type="text" class="span2 form-control" placeholder="Время" name="time">
+       <input  type="text" class="span2 form-control" placeholder="Дата" name="date">
+       <input  type="text" class="span2 form-control" placeholder="Местоположение" name="place">
+       <input type="text" class="span2 form-control" placeholder="Цена" name="cost">
+       <input type="text" class="span2 form-control" placeholder="Контакты" name="contacts">
+
+       <button  type="submit" class="btn btn-primary" >Подтвердить</button>
+       </form> 
+       
+        </div> 
+        </form>
+    </body>
+</html>

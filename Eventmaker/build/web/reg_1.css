@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.02.2015, 15:46:21
+    Author     : Solkey
+*/
+
+#header{
+    height:30px;
+    background: #0ca3d2;
+    margin-bottom: 20%;
+}
+#content{
+    margin-bottom: 50%;
+
+}
+#footer{
+    
+}
+
+body{
+    background: url(phd3.jpg);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 110%;
+    }
+html { overflow-x:  hidden; }
+  

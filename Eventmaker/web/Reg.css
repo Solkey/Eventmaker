@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24.01.2015, 22:33:35
+    Author     : Solkey
+*/
+
+ H1 { 
+        font-size: 120%; 
+        font-family: Verdana, Arial, Helvetica, sans-serif; 
+        color: #336;
+        position: absolute;top: 100px;left: 90px;
+           }
+p  {
+        color: #336;
+        font-family: Verdana, Arial, Helvetica, sans-serif; 
+           }        
